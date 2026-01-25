@@ -1,0 +1,884 @@
+{
+	"products": [
+		{
+			"id": "619168ee06c63854e3ec7c72",
+			"customer": "Hodge Lang",
+			"email": "donaldson@example.com",
+			"cars": [
+				{
+					"brand": null,
+					"price": "$29,621",
+					"wheels": {
+						"brand": "Michelin",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 2,
+							"standards": [
+								null,
+								{
+									"codec": "DCT",
+									"partial": false
+								},
+								{
+									"codec": "aptX",
+									"partial": false
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "Smart",
+					"price": "$16,515",
+					"wheels": {
+						"brand": "Michelin",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": 4,
+							"standards": [
+								{
+									"codec": null,
+									"partial": false
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "BMW",
+					"price": "$18,417",
+					"wheels": {
+						"brand": "Slimline",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 3,
+							"standards": [
+								{
+									"codec": "IPMR",
+									"partial": true
+								},
+								{
+									"codec": "Blackbird",
+									"partial": true
+								},
+								null
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168eec62127fe7cac3665",
+			"customer": "Tracie Simmons",
+			"email": "jones@example.com",
+			"cars": [
+				{
+					"brand": "Thesla",
+					"price": "$12,105",
+					"wheels": {
+						"brand": null,
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": 4,
+							"standards": [
+								{
+									"codec": "Blackbird",
+									"partial": true
+								},
+								{
+									"codec": "Blackbird",
+									"partial": null
+								},
+								{
+									"codec": "Blackbird",
+									"partial": true
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "Benz",
+					"price": "$14,334",
+					"wheels": {
+						"brand": "Michelin",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": 4,
+							"standards": null
+						}
+					}
+				},
+				{
+					"brand": "BMW",
+					"price": "$30,456",
+					"wheels": {
+						"brand": "Slimline",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": null,
+							"standards": [
+								{
+									"codec": "aptX",
+									"partial": null
+								},
+								{
+									"codec": "Opus",
+									"partial": null
+								},
+								{
+									"codec": "aptX",
+									"partial": false
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168ee25c3253565d2cc1b",
+			"customer": "Megan Rollins",
+			"email": "atkinson@example.com",
+			"cars": []
+		},
+		{
+			"id": "619168ee3c9e9a4d6013466c",
+			"customer": "Denise Witt",
+			"email": "horton@example.com",
+			"cars": [
+				{
+					"brand": "Smart",
+					"price": "$26,575",
+					"wheels": {
+						"brand": "Badyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": 5,
+							"standards": [
+								{
+									"codec": "aptX",
+									"partial": true
+								},
+								{
+									"codec": "aptX",
+									"partial": null
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168eef2f94b81128fb8a7",
+			"customer": "York Ford",
+			"email": "sykes@example.com",
+			"cars": [
+				{
+					"brand": "Smart",
+					"price": "$11,754",
+					"wheels": {
+						"brand": "Michelin",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 4,
+							"standards": [
+								{
+									"codec": null,
+									"partial": null
+								},
+								{
+									"codec": "LDAC",
+									"partial": null
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "Smart",
+					"price": "$13,674",
+					"wheels": {
+						"brand": "Goodyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": null,
+							"standards": [
+								{
+									"codec": "LDAC",
+									"partial": false
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "VW",
+					"price": "$34,065",
+					"wheels": {
+						"brand": "Goodyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 2,
+							"standards": [
+								{
+									"codec": "UAT",
+									"partial": true
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168ee23b39dae05e155af",
+			"customer": "Evangelina Chavez",
+			"email": "maldonado@example.com",
+			"cars": [
+				{
+					"brand": "Bugatti",
+					"price": "$16,684",
+					"wheels": {
+						"brand": "Slimline",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": 3,
+							"standards": [
+								{
+									"codec": "DTS",
+									"partial": null
+								},
+								{
+									"codec": "Blackbird",
+									"partial": true
+								},
+								{
+									"codec": "UAT",
+									"partial": false
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "Thesla",
+					"price": "$35,718",
+					"wheels": {
+						"brand": "Goodyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": null,
+							"standards": [
+								{
+									"codec": "DTS",
+									"partial": false
+								},
+								{
+									"codec": "LDAC",
+									"partial": null
+								},
+								{
+									"codec": "LDAC",
+									"partial": false
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168ee2dad7a0341574553",
+			"customer": "Dee Davenport",
+			"email": "alvarado@example.com",
+			"cars": [
+				{
+					"brand": "BMW",
+					"price": "$15,803",
+					"wheels": {
+						"brand": null,
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 2,
+							"standards": null
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168ee4380756efaf1f94f",
+			"customer": "Patsy Mcpherson",
+			"email": "jordan@example.com",
+			"cars": [
+				{
+					"brand": "Smart",
+					"price": "$17,837",
+					"wheels": {
+						"brand": "Slimline",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": 3,
+							"standards": [
+								{
+									"codec": "IPMR",
+									"partial": false
+								},
+								{
+									"codec": "LDAC",
+									"partial": null
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168ee9a1556c66a04c65e",
+			"customer": "Stevenson Campbell",
+			"email": "bass@example.com",
+			"cars": [
+				{
+					"brand": "Smart",
+					"price": "$27,079",
+					"wheels": {
+						"brand": "Slimline",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 5,
+							"standards": [
+								{
+									"codec": "LDAC",
+									"partial": true
+								},
+								{
+									"codec": "LDAC",
+									"partial": null
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168eeb7e26ab3201d07c8",
+			"customer": "Beach Briggs",
+			"email": null,
+			"cars": [
+				{
+					"brand": null,
+					"price": "$18,917",
+					"wheels": {
+						"brand": "Badyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": 4,
+							"standards": null
+						}
+					}
+				},
+				null,
+				{
+					"brand": "Thesla",
+					"price": "$22,459",
+					"wheels": {
+						"brand": "Goodyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": 4,
+							"standards": []
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168eeba5c48d76252cc70",
+			"customer": "Lessie Phelps",
+			"email": "tate@example.com",
+			"cars": [
+				{
+					"brand": "Smart",
+					"price": "$36,707",
+					"wheels": {
+						"brand": null,
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": 1,
+							"standards": [
+								{
+									"codec": "Opus",
+									"partial": false
+								},
+								{
+									"codec": "aptX",
+									"partial": false
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "Thesla",
+					"price": "$19,082",
+					"wheels": null,
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 1,
+							"standards": [
+								{
+									"codec": "LDAC",
+									"partial": false
+								},
+								{
+									"codec": "Blackbird",
+									"partial": null
+								},
+								{
+									"codec": "Opus",
+									"partial": false
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168ee14d17d00bfdc7361",
+			"customer": "Rochelle Webster",
+			"email": "schneider@example.com",
+			"cars": [
+				{
+					"brand": "Smart",
+					"price": "$37,060",
+					"wheels": {
+						"brand": "Michelin",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 5,
+							"standards": [
+								{
+									"codec": "aptX",
+									"partial": true
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168eede9a822d3ff20705",
+			"customer": "Sophia Roy",
+			"email": "melendez@example.com",
+			"cars": [
+				{
+					"brand": "VW",
+					"price": "$38,805",
+					"wheels": {
+						"brand": "Badyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": null,
+							"standards": [
+								{
+									"codec": "DCT",
+									"partial": true
+								},
+								{
+									"codec": "Opus",
+									"partial": null
+								},
+								{
+									"codec": "Opus",
+									"partial": false
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "VW",
+					"price": "$13,741",
+					"wheels": {
+						"brand": "Slimline",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": null
+					}
+				},
+				{
+					"brand": "BMW",
+					"price": "$23,700",
+					"wheels": {
+						"brand": null,
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 3,
+							"standards": [
+								{
+									"codec": "IPMR",
+									"partial": false
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168eef47e27145d0c445f",
+			"customer": "Kristen Ellison",
+			"email": "morse@example.com",
+			"cars": [
+				{
+					"brand": null,
+					"price": "$18,050",
+					"wheels": {
+						"brand": "Badyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 5,
+							"standards": null
+						}
+					}
+				},
+				{
+					"brand": "VW",
+					"price": "$34,109",
+					"wheels": {
+						"brand": "Goodyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 5,
+							"standards": [
+								{
+									"codec": null,
+									"partial": false
+								},
+								{
+									"codec": "DTS",
+									"partial": true
+								},
+								{
+									"codec": "DTS",
+									"partial": false
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "Benz",
+					"price": "$37,666",
+					"wheels": {
+						"brand": "Michelin",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": null,
+							"standards": [
+								{
+									"codec": "DCT",
+									"partial": true
+								},
+								{
+									"codec": "Blackbird",
+									"partial": null
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168eecd62539c644b8302",
+			"customer": "Mack Bond",
+			"email": "woodard@example.com",
+			"cars": [
+				{
+					"brand": "BMW",
+					"price": "$14,107",
+					"wheels": {
+						"brand": "Goodyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": 1,
+							"standards": [
+								{
+									"codec": "UAT",
+									"partial": null
+								},
+								{
+									"codec": "DTS",
+									"partial": true
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "BMW",
+					"price": "$39,289",
+					"wheels": {
+						"brand": "Badyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 4,
+							"standards": [
+								{
+									"codec": "UAT",
+									"partial": false
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "VW",
+					"price": "$24,829",
+					"wheels": {
+						"brand": "Goodyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": null,
+							"standards": [
+								{
+									"codec": "UAT",
+									"partial": false
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168ee1c623a7beb589b33",
+			"customer": "Abbott Yang",
+			"email": "vang@example.com",
+			"cars": [
+				{
+					"brand": "Thesla",
+					"price": "$27,319",
+					"wheels": {
+						"brand": "Michelin",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 3,
+							"standards": [
+								{
+									"codec": "DTS",
+									"partial": false
+								},
+								{
+									"codec": "DTS",
+									"partial": null
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "Bugatti",
+					"price": "$11,587",
+					"wheels": {
+						"brand": "Badyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 1,
+							"standards": []
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "619168ee2e515450e65769c2",
+			"customer": "Bullock Mays",
+			"email": "ochoa@example.com",
+			"cars": null
+		},
+		{
+			"id": "619168ee817885bf1ccd90a5",
+			"customer": "Head Howe",
+			"email": "reyes@example.com",
+			"cars": []
+		},
+		{
+			"id": "619168ee467fbff0ae5ab397",
+			"customer": "Johns Carpenter",
+			"email": "malone@example.com",
+			"cars": [
+				{
+					"brand": "VW",
+					"price": "$36,083",
+					"wheels": {
+						"brand": "Goodyear",
+						"amount": 4
+					},
+					"radio": {
+						"ukw": false,
+						"bluetooth": {
+							"version": 5,
+							"standards": [
+								{
+									"codec": "Blackbird",
+									"partial": true
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "Thesla",
+					"price": "$18,082",
+					"wheels": {
+						"brand": null,
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": 5,
+							"standards": [
+								{
+									"codec": "LDAC",
+									"partial": false
+								},
+								{
+									"codec": "Opus",
+									"partial": false
+								}
+							]
+						}
+					}
+				},
+				{
+					"brand": "Bugatti",
+					"price": "$13,104",
+					"wheels": {
+						"brand": null,
+						"amount": 4
+					},
+					"radio": {
+						"ukw": true,
+						"bluetooth": {
+							"version": 5,
+							"standards": [
+								{
+									"codec": "IPMR",
+									"partial": true
+								},
+								{
+									"codec": "aptX",
+									"partial": null
+								},
+								{
+									"codec": "aptX",
+									"partial": null
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+	]
+}

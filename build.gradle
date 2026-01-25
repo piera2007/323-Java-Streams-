@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+group = 'ch.bbw'
+version = '0.0.0-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
+
+dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.19.0'
+    testImplementation 'org.assertj:assertj-core:3.27.3'
+	testImplementation 'org.junit.jupiter:junit-jupiter:5.12.2'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
