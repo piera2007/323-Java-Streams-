@@ -1,7 +1,11 @@
 package ch.bbw.m323.streams;
 
 import java.io.IOException;
+import java.util.Collection;
 import java.util.List;
+import java.util.Objects;
+import java.util.function.Predicate;
+import java.util.stream.Stream;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.assertj.core.api.WithAssertions;
@@ -31,6 +35,22 @@ class GarageStreamTest implements WithAssertions {
 		}
 	}
 
+	private static <T> Stream<T> safeStream(List<T> list) {
+		return list == null ? Stream.empty() : list.stream();
+	}
+
+	private Stream<Inventory.Customer> customers() {
+		return inventory == null ? Stream.empty() : safeStream(inventory.products());
+	}
+
+	private static Stream<Inventory.Customer.Car> carsOf(Inventory.Customer c) {
+		return c == null ? Stream.empty() : safeStream(c.cars());
+	}
+
+	private Stream<Inventory.Customer.Car> allCars() {
+		return customers().flatMap(GarageStreamTest::carsOf);
+	}
+
 	@BeforeEach
 	void readJson() throws IOException {
 		// TODO: change to "manynull.json" for a harder experience
@@ -40,7 +60,32 @@ class GarageStreamTest implements WithAssertions {
 	}
 
 	@Test
-	void aTest() {
+	void customerNamesWithTwoOrMoreCars() {
 
+		Predicate<Inventory.Customer> hasAtLeastTwoCars =
+			c -> c != null && c.cars() != null && c.cars().size() >= 2;
+		assertThat(
+			customers()
+					.filter(hasAtLeastTwoCars)
+					.map(Inventory.Customer::customer)
+					.filter(Objects::nonNull)
+					.toList()
+		).hasSizeBetween(10, 11);
+
+	}
+
+	@Test
+	void countCarsWithUkwRadio(){
+
+		Predicate<Inventory.Customer.Car> hasUkw =
+				car -> car !=null
+				&& car.radio() != null
+				&& Boolean.TRUE.equals(car.radio().ukw());
+
+		assertThat(
+				allCars()
+						.filter(hasUkw)
+						.count()
+		).isIn(8L, 16L);
 	}
 }
